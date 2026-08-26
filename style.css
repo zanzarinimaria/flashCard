@@ -117,16 +117,7 @@ button {
 
 button:hover {
     background-color: #5a2c13; 
-    button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #7e3e1c;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
+
 }
   main {
   display: flex;
@@ -148,6 +139,19 @@ section {
   perspective: 100px;
   cursor: pointer;
   margin-bottom: 20px;
+  button {
+  margin-top: 280px; /* Força o botão a descer e sair debaixo do cartão */
+  position: relative; /* Garante que ele respeite o espaçamento */
+  z-index: 10;        /* Fica sempre na camada de cima */
+  padding: 10px 20px;
+  background-color: #7e3e1c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+
 }
 
 
