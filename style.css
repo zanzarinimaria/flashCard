@@ -117,7 +117,17 @@ button {
 
 button:hover {
     background-color: #5a2c13; 
-main { 
+    button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #7e3e1c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
   main {
   display: flex;
   flex-direction: column;
@@ -140,15 +150,4 @@ section {
   margin-bottom: 20px;
 }
 
-/* Estilo para garantir que o botão fique bem posicionado logo abaixo */
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #7e3e1c;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: bold;
-}
+
