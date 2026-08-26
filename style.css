@@ -130,7 +130,7 @@ section {
   display: flex; 
   flex-direction: column;
   align-items: center;
-  margin-bottom: 250px; /* Cria um "espaço invisível" grande embaixo do cartão para empurrar tudo o que vem depois */
+  margin-bottom: 250px; 
 } 
 
 .cartao {
@@ -140,9 +140,9 @@ section {
   cursor: pointer;
   margin-bottom: 20px;
   button {
-  margin-top: 280px; /* Força o botão a descer e sair debaixo do cartão */
-  position: relative; /* Garante que ele respeite o espaçamento */
-  z-index: 10;        /* Fica sempre na camada de cima */
+  margin-top: 280px; 
+  position: relative;
+  z-index: 10;       
   padding: 10px 20px;
   background-color: #7e3e1c;
   color: #fff;
