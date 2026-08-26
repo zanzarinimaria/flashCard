@@ -135,7 +135,7 @@ section {
 .cartao {
   width: 300px;
   height: 200px;
-  perspective: 1000px;
+  perspective: 100px;
   cursor: pointer;
   margin-bottom: 20px;
 }
