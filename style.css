@@ -1,4 +1,4 @@
-{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -43,12 +43,13 @@ main {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  gap: 25px; /* Mantém um espaço limpo e automático entre o título, o cartão e o botão */
 } 
 
-section { 
+.cartoes { 
   display: flex; 
-  gap: 16px; 
-  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
 } 
 
 .cartao {
@@ -96,53 +97,7 @@ section {
   display: block;
 }
 
-footer { 
-  background-color: #7e3e1c; 
-  padding: 15px 25px; 
-  color: #fff; 
-  width: 100%;
-  text-align: center;
 button {
-    margin-top: 45px; 
-    padding: 10px 20px;
-    background-color: #7e3e1c;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    transition: background-color 0.2s;
-}
-
-button:hover {
-    background-color: #5a2c13; 
-
-}
-  main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-section { 
-  display: flex; 
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 250px; 
-} 
-
-.cartao {
-  width: 300px;
-  height: 200px;
-  perspective: 100px;
-  cursor: pointer;
-  margin-bottom: 20px;
-  button {
-  margin-top: 280px; 
-  position: relative;
-  z-index: 10;       
   padding: 10px 20px;
   background-color: #7e3e1c;
   color: #fff;
@@ -151,7 +106,17 @@ section {
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-
+  transition: background-color 0.2s;
 }
 
+button:hover {
+  background-color: #5a2c13; 
+}
 
+footer { 
+  background-color: #7e3e1c; 
+  padding: 15px 25px; 
+  color: #fff; 
+  width: 100%;
+  text-align: center;
+}
