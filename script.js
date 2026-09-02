@@ -30,17 +30,17 @@ const flashcards = [
         imagem: null
     },
     {
-        pergunta: "7. Experimento / Sensor de Fumaça: Como funciona o projeto de alarme de incêndio com Arduino?",
+        pergunta: "7. Experimento / Sensor de Gás e Fumaça",
         resposta: "É um sistema automático de alarme de incêndio que usa um Arduino Uno conectado a um sensor MQ-2 para monitorar constantemente a qualidade do ar. Enquanto o ambiente está seguro, o sistema mantém um LED verde aceso, mas ao detectar níveis perigosos de fumaça ou gás, o microcontrolador aciona um LED vermelho e um alarme sonoro no buzzer para alertar sobre o perigo.",
         imagem: null
     },
     {
-        pergunta: "8. Experimento / Rastreador Solar: Como funciona o sistema de rastreamento de luz com LDR e servo motor?",
+        pergunta: "8. Experimento / LDR e servo motor",
         resposta: "É um sistema automático de rastreamento de luz que usa sensores LDR para medir a claridade do ambiente e um microcontrolador Arduino para processar essas leituras. Quando a luz muda de posição, o Arduino aciona um servo motor para girar e alinhar a estrutura diretamente em direção à fonte mais luminosa, uma técnica muito usada para otimizar painéis solares.",
         imagem: "servomotor.jpeg" // Nome exato do arquivo de foto que você enviou
     },
     {
-        pergunta: "9. Experimento / Laser de Fenda Dupla e Única: Como funciona o experimento de difração e interferência da luz?",
+        pergunta: "9. Experimento / Laser de Fenda Dupla e Única",
         resposta: "É um experimento de óptica que demonstra o comportamento da luz. Ao passar por uma fenda, o feixe de laser sofre difração e se espalha. Ao passar por duas fendas, as ondas de luz se cruzam e geram interferência, criando um padrão de faixas claras e escuras. O Arduino pode ser usado com sensores de luz (LDRs) para medir a intensidade dessas faixas automaticamente.",
         imagem: null
     }
