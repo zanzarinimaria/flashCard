@@ -37,7 +37,7 @@ const flashcards = [
     {
         pergunta: "8. Experimento / Rastreador Solar: Como funciona o sistema de rastreamento de luz com LDR e servo motor?",
         resposta: "É um sistema automático de rastreamento de luz que usa sensores LDR para medir a claridade do ambiente e um microcontrolador Arduino para processar essas leituras. Quando a luz muda de posição, o Arduino aciona um servo motor para girar e alinhar a estrutura diretamente em direção à fonte mais luminosa, uma técnica muito usada para otimizar painéis solares.",
-        imagem: "servomotor.jpeg" 
+        imagem: "servomotor.jpeg" // Nome exato do arquivo de foto que você enviou
     },
     {
         pergunta: "9. Experimento / Laser de Fenda Dupla e Única: Como funciona o experimento de difração e interferência da luz?",
