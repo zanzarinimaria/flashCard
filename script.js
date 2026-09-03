@@ -28,7 +28,7 @@ const flashcards = [
         pergunta: "6. Óptica do corpo humano: Qual parte do olho humano funciona como uma lente natural que foca a luz na retina?",
         resposta: "O cristalino.",
         imagem: null
-    }
+    },
     {
     pergunta: "7. Experimento / Sensor de Gás e Fumaça",
     resposta: "É um sistema automático de alarme de incêndio que usa um Arduino Uno conectado a um sensor MQ-2 para monitorar constantemente a qualidade do ar. Enquanto o ambiente está seguro, o sistema mantém um LED verde aceso, mas ao detectar níveis perigosos de fumaça ou gás, o microcontrolador aciona um LED vermelho e um alarme sonoro no buzzer para alertar sobre o perigo.",
