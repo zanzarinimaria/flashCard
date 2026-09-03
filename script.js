@@ -30,19 +30,19 @@ const flashcards = [
         imagem: null
     },
     {
-    pergunta: "7. Experimento / Sensor de Gás e Fumaça",
-    resposta: "É um sistema automático de alarme de incêndio que usa um Arduino Uno conectado a um sensor MQ-2 para monitorar constantemente a qualidade do ar. Enquanto o ambiente está seguro, o sistema mantém um LED verde aceso, mas ao detectar níveis perigosos de fumaça ou gás, o microcontrolador aciona um LED vermelho e um alarme sonoro no buzzer para alertar sobre o perigo.",
-    imagem: "img/img_2.jpg" 
+        pergunta: "7. Experimento / Sensor de Gás e Fumaça",
+        resposta: "É um sistema automático de alarme de incêndio que usa um Arduino Uno conectado a um sensor MQ-2 para monitorar constantemente a qualidade do ar. Enquanto o ambiente está seguro, o sistema mantém um LED verde aceso, mas ao detectar níveis perigosos de fumaça ou gás, o microcontrolador aciona um LED vermelho e um alarme sonoro no buzzer para alertar sobre o perigo.",
+        imagem: "img/img_2.jpg" 
     },
     {
-    pergunta: "8. Experimento / LDR e servo motor",
-    resposta: "É um sistema automático de rastreamento de luz que usa sensores LDR para medir a claridade do ambiente e um microcontrolador Arduino para processar essas leituras. Quando a luz muda de posição, o Arduino aciona um servo motor para girar e alinhar a estrutura diretamente em direção à fonte mais luminosa, uma técnica muito usada para otimizar painéis solares.",
-    imagem: "img/img_3.jpg" 
+        pergunta: "8. Experimento / LDR e servo motor", 
+        resposta: "É um sistema automático de rastreamento de luz que usa sensores LDR para medir a claridade do ambiente e um microcontrolador Arduino para processar essas leituras. Quando a luz muda de posição, o Arduino aciona um servo motor para girar e alinhar a estrutura diretamente em direção à fonte mais luminosa, uma técnica muito usada para otimizar painéis solares.",
+        imagem: "img/img_3.jpg" 
     },
     {
-    pergunta: "9. Experimento / Laser de Fenda Dupla e Única",
-    resposta: "É um experimento de óptica que demonstra o comportamento da luz. Ao passar por uma fenda, o feixe de laser sofre difração e se espalha. Ao passar por duas fendas, as ondas de luz se cruzam e geram interferência, criando um padrão de faixas claras e escuras. O Arduino pode ser usado com sensores de luz (LDRs) para medir a intensidade dessas faixas automaticamente.",
-    imagem: "img/img_1.jpg"
+        pergunta: "9. Experimento / Laser de Fenda Dupla e Única",
+        resposta: "É um experimento de óptica que demonstra o comportamento da luz. Ao passar por uma fenda, o feixe de laser sofre difração e se espalha. Ao passar por duas fendas, as ondas de luz se cruzam e geram interferência, criando um padrão de faixas claras e escuras. O Arduino pode ser usado com sensores de luz (LDRs) para medir a intensidade dessas faixas automaticamente.",
+        imagem: "img/img_1.jpg"
     }
 ];
 
@@ -50,14 +50,13 @@ let indiceAtual = 0;
 
 const elementoPergunta = document.getElementById("pergunta");
 const elementoResposta = document.getElementById("resposta");
-const elementoImagem = document.getElementById("imagem-resposta");
+const elementoImagem = document.getElementById("imagem-pergunta");
 
 function atualizarCard() {
     if (elementoPergunta && elementoResposta) {
         elementoPergunta.textContent = flashcards[indiceAtual].pergunta;
         elementoResposta.textContent = flashcards[indiceAtual].resposta;
         
-        // Exibe ou oculta a imagem dependendo do card
         if (flashcards[indiceAtual].imagem && elementoImagem) {
             elementoImagem.src = flashcards[indiceAtual].imagem;
             elementoImagem.style.display = "block";
