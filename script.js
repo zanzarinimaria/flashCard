@@ -50,6 +50,7 @@ let indiceAtual = 0;
 
 const elementoPergunta = document.getElementById("pergunta");
 const elementoResposta = document.getElementById("resposta");
+
 const elementoImagem = document.getElementById("imagem-pergunta");
 
 function atualizarCard() {
@@ -57,6 +58,7 @@ function atualizarCard() {
         elementoPergunta.textContent = flashcards[indiceAtual].pergunta;
         elementoResposta.textContent = flashcards[indiceAtual].resposta;
         
+
         if (flashcards[indiceAtual].imagem && elementoImagem) {
             elementoImagem.src = flashcards[indiceAtual].imagem;
             elementoImagem.style.display = "block";

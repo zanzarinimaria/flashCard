@@ -43,7 +43,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  gap: 25px; /* Mantém um espaço limpo e automático entre o título, o cartão e o botão */
+  gap: 25px;
 } 
 
 .cartoes { 
@@ -86,6 +86,7 @@ main {
   justify-content: center;
   padding: 20px;
   background-color: #fff;
+  transform-style: preserve-3d; 
 } 
 
 .cartao-verso { 
